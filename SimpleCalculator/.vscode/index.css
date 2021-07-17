@@ -1,0 +1,20 @@
+button {
+    border-radius: 20px;
+    width: 100;
+    height: 100;
+    background-color: rgb(61, 235, 17);
+    font-family: fantasy;
+    
+}
+
+body {
+    text-align: center;
+    background-color: rgb(12, 126, 192);
+    padding: 250px;
+}
+
+
+span{
+    text-decoration: underline;
+    font-weight: bold;
+}
