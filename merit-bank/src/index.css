@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+.navbar h1 {
+  color: rgb(12, 12, 12);
+  font-size: 30px; 
+  
+}
+
+
+.navbar .links {
+  margin-left: auto;
+  
+}
+.navbar a {
+  margin-left: 50px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #3538f1;
+}
+
+links {
+  display: flex;
+
+}
+
+sidebar {
+  justify-content: flex-start;
+}
+
+
+button {
+  background-color: rgb(42, 42, 58);
+  color: white;
+  font-size: 20px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.createBtn {
+  margin-left: 80px;
+  justify-content: flex-end;
+}
+
+.footer {
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+
+}
+
+.footer h1 {
+  color: rgb(12, 12, 12);
+  font-size: 15px; 
+  justify-content: flex-start;
+
+}
+
+
+
+
