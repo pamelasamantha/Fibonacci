@@ -1,65 +1,35 @@
-
 import './App.css';
-import {  BrowserRouter as Router, Route, Link, Switch, BrowserRouter } from 'react-router-dom';
-import About from './components/About'
-import Contact from './components/Contact'
-import Home from './components/Home'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import ListAccountHolder from './components/ListAccountHolder';
-import CreateAccountHolder from './components/CreateAccountHolder';
-import UpdateAccountHolder from './components/UpdateAccountHolder';
-import ViewAccountHolder from './components/ViewAccountHolder';
+import {  BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header'
+//import Footer from './components/Footer'
+import ListAccount from './components/ListAccount';
+import CreateAccount from './components/CreateAccount';
+import ViewAccount from './components/ViewAccount';
 
 
 
-export default function App() {
-
+function App() {
 
   return (
     <div>
       <Router>
-        <Navbar />
-        <div className="container">
-          <Switch>
-              <Route path ="/" exact component ={ListAccountHolder}></Route>
-              <Route path = "/acctholder" component = {ListAccountHolder}></Route>
-              <Route path = "/add-acctholder/:id" component = {CreateAccountHolder}></Route>
-              <Route path = "/view-acctholder/:id" component = {ViewAccountHolder}></Route>
-          </Switch>
-        </div>
-        <Footer />
-      </Router>
+            <Header />
+              <div className="container">
+                <Switch>
+                    <Route path ="/" exact component ={ListAccount}></Route>
+                    <Route path = "/accountType" component = {ListAccount}></Route>
+                    <Route path = "/add-accountType/:id" component = {CreateAccount}></Route>
+                    <Route path = "/view-accountType/:id" component = {ViewAccount}></Route>
+                </Switch>
+              </div>
+        </Router>
     </div>
 
-    /*
-    <BrowserRouter>
-    <Router>
-      <Navbar />
-     
-        <div className="App">
-        <div className="App-header"> 
-            <Switch>
-              <Route exact path='/'>
-                <Home />
-              
-              </Route>
-              <Route exact path='/about'>
-                <About />
-              </Route>
-              <Route exact path='/contact'>
-                <Contact />
-              </Route>
-            </Switch>
-            
-        </div>
-        </div>
-        <Footer />
-    </Router>
-    </BrowserRouter>*/
-    
+   
   );
 }
+
+export default App;
 
 
 

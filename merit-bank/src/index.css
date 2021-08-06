@@ -16,12 +16,6 @@ code {
     monospace;
 }
 
-.navbar {
-  width: 50%;
-  height: 40px;
-  background-color: white;
-  text-align: center;
-}
 
 .navbar h1 {
   color: rgb(12, 12, 12);
@@ -68,21 +62,6 @@ button {
   justify-content: flex-end;
 }
 
-.footer {
-  width: 50%;
-  height: 40px;
-  background-color: white;
-  text-align: center;
-  display: flex;
-
-}
-
-.footer h1 {
-  color: rgb(12, 12, 12);
-  font-size: 15px; 
-  justify-content: flex-start;
-
-}
 
 
 

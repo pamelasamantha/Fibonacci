@@ -1,10 +1,8 @@
 //import { Link } from 'react-router-dom';
 import React, { Component } from 'react'
-//import Logout from './Logout';
-//import Logout from './Logout';
 
 
-class Navbar extends Component {
+class Header extends Component {
     constructor(props) {
         super(props)
 
@@ -27,4 +25,4 @@ class Navbar extends Component {
 
 }
 
-export default Navbar
+export default Header
